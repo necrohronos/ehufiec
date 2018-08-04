@@ -13,3 +13,14 @@
     margin: 0 auto;
     width: 85%;
 }
+.content-flex {
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.col2 {
+    width: 50%
+    flex-basis: 50%;
+}
