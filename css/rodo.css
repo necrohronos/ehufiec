@@ -12,7 +12,9 @@
 }
 #rodo {
     background: #fff;
-    width: 800px;
+    position: relative;
+    padding-top: 30px;
+    width: 80%;
     z-index: 1000;
     height: 50%
 }
@@ -33,9 +35,12 @@
     text-align: center;
     font-size: 1.5em;
     border-radius: 50%;
-    transform: translate(790px,-20px);
+    position: absolute;
+    right: -20px;
+    top: -20px;
+/*    transform: translate(790px,-20px);*/
     transition: 0.7s;
 }
 #wypierdalaj-mi-z-tym:hover {
-    transform: translate(790px,-20px) rotate(180deg);
+    transform: rotate(180deg);
 }
