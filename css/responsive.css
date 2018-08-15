@@ -11,7 +11,7 @@
         box-shadow: none;
     }
 }
-@media only screen and (max-width: 523px) {
+@media only screen and (max-width: 542px) {
     .navbar .active {
         background-color: transparent;
         border-bottom: 2px solid #fff;
