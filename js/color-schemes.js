@@ -24,7 +24,7 @@ barwy32.addEventListener('click', function () {
     numer.innerText= "32";
 });
 barwy160.addEventListener('click', function () {
-   tlo.style.background = "radial-gradient( rgba(127, 194, 65, 1), rgba(127, 194, 65, 0.7) )";
+   tlo.style.background = "radial-gradient( rgba(133, 163, 20, 1), rgba(133, 163, 20, 0.7) )";
     nazwa.style.color ="#fff";
     numer.innerText= "160";
 });

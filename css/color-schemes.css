@@ -68,7 +68,7 @@
     color: #fff;
 }
 #scheme3 {
-    background-color: #7fc241;
+    background-color: #85A314;
     color: #fff;
 }
 #scheme4 {
@@ -90,4 +90,7 @@
 #scheme8 {
     background-color: #000;
     color: #149ee1;
+}
+.gridbox-zhp {
+    max-width: 95%;
 }
