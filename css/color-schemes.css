@@ -1,5 +1,18 @@
 #exbody {
     background: radial-gradient( rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.7) );
+    padding-left: 5px;
+}
+.exheader {
+    height: 60px;
+    line-height: 60px;
+}
+#extitle {
+    font-size: 1.5em;
+}
+.exlogo {
+    height: 35px;
+    margin: 10px;
+    float: left;
 }
 #exnav > ul {
     list-style: none;
@@ -27,12 +40,54 @@
 #exnav > ul > li > a:visited {
     color: #fff;
 }
-#exnav > ul > .active {
+#exactive {
     background-color: #fff;
     border-radius: 5px 5px 0 0; 
     box-shadow: 5px -1px 2px rgba(0, 0, 0, 0.1);
+    color: #7fc241;
     z-index: -1;
 }
-#exnav > ul > .active > a {
-    color: #7fc241;
+#exactive > a, #exactive > a:visited {
+    color: #000 !important;
+}
+.exbtn {
+    min-width: 70px;
+    height: 50px;
+    line-height: 20px;
+    border: 0;
+    border-radius: 5px;
+    font-size: 1.5em;
+    font-family: 'museo500'
+}
+#scheme1 {
+    background-color: #000;
+    color: #fff;
+}
+#scheme2 {
+    background-color: #800000;
+    color: #fff;
+}
+#scheme3 {
+    background-color: #7fc241;
+    color: #fff;
+}
+#scheme4 {
+    background-color: #000;
+    color: #ff780e;
+}
+#scheme5 {
+    background-color: #f22f21;
+    color: #fff;
+}
+#scheme6 {
+    background-color: #149ee1;
+    color: #ff780e;
+}
+#scheme7 {
+    background-color: #000041;
+    color: #fff;
+}
+#scheme8 {
+    background-color: #000;
+    color: #149ee1;
 }
